@@ -9,9 +9,9 @@ int main(int argc, char *argv[])
 {
 
     Mat img;
-    namedWindow("TestWindow",CV_WINDOW_NORMAL);
+    namedWindow("Origin Picture",CV_WINDOW_NORMAL);
     img = imread("1.jpg");
-    imshow("TestWindow",img);
+    imshow("Origin Picture",img);
 
     waitKey(0);
 
